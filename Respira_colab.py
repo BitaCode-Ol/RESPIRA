@@ -10,7 +10,7 @@ print("Como você está se sentindo hoje?")
 print("Digite: cansado, estressado, ansioso ou outro sentimento.")
 sentimento = input(">>> ")
 
-# Normaliza o texto: remove acentos, deixa minúsculo e tira espaços extras
+
 sentimento = remover_acentos(sentimento.strip().lower())
 
 if sentimento in ["cansado", "estressado", "ansioso"]:

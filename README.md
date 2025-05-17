@@ -27,15 +27,31 @@ Como estou começando na programação e ainda não tenho uma ampla noção para
 
 ---
 
-## ▶️ Teste agora no Google Colab (sem instalar nada!)
+## ▶️ Como testar o projeto
 
-Quer testar o chatbot sem precisar instalar o Python? É só seguir esses passos:
+Você pode testar o chatbot de duas formas:
 
-1. Acesse o [Google Colab](https://colab.research.google.com)
-2. Clique em "Novo notebook"
-3. Copie e cole o código que está no arquivo Respira.py deste repositório
-4. Clique no botão ▶️ para executar
+---
 
+### No Google Colab (sem instalar nada)
+
+1. Acesse [Google Colab](https://colab.research.google.com)  
+2. Clique em "Novo notebook"  
+3. Copie e cole o código do arquivo Respira_colab.py  
+4. Clique no botão ▶️ para executar  
+5. Digite no campo “Sentimento:” como você está se sentindo e pressione Enter
+obs: você verá uma versão bem simplificada do projeto, mas vai poder entender o intuito do "Respira".
+
+---
+
+### No computador local (precisa ter Python instalado)
+
+1. Clone o repositório:
+git clone https://github.com/BitaCode-Ol/RESPIRA.git
+
+2. Entre na pasta: cd RESPIRA
+
+3. Rode o script: python Respira.py
 ## 🚧 Status
 
 🔹 Criado para a Imersão IA da Alura + Google Gemini<br>

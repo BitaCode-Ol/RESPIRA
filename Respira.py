@@ -43,7 +43,7 @@ warnings.filterwarnings("ignore")
 def call_agent(agent: Agent, message_text: str) -> str:
     # Cria um serviço de sessão em memória
     session_service = InMemorySessionService()
-    # Cria uma nova sessão (você pode personalizar os IDs conforme necessário)
+    # Cria uma nova sessão 
     session = session_service.create_session(app_name=agent.name, user_id="user1", session_id="session1")
     # Cria um Runner para o agente
     runner = Runner(agent=agent, app_name=agent.name, session_service=session_service)
@@ -105,13 +105,13 @@ def iniciar_pausa_guiada():
     input("Sinta seu corpo relaxando... (Enter)")
     print("\n✨ Pausa concluída. Respire sempre que precisar.")
 
-# Cria e imprime link pro Google Agenda
+# link pro Google Agenda
 def criar_lembrete_agenda():
     print("\n⏰ Gerando link para o Google Agenda...")
     inicio = datetime.now() + timedelta(minutes=1)
     fim    = inicio + timedelta(minutes=5)
 
-    # Formata para o padrão YYYYMMDDTHHMMSS
+    # Formata 
     inicio_str = inicio.strftime("%Y%m%dT%H%M%S")
     fim_str    = fim.strftime("%Y%m%dT%H%M%S")
 
